@@ -45,7 +45,7 @@ if(isset($_SESSION['user'])){
                     <div class="top-left">
                         <ul class="contact-list clearfix">
                             <li><i class="flaticon-hospital-1"></i>Alberdi 455 <br> Clorinda, Formosa, Argentina </li>
-                            <li><i class="flaticon-back-in-time"></i>Lunes - Sabados 8.00 - 18.00. <br> Domingos CERRADO</li>
+                            <li><i class="flaticon-back-in-time"></i>Lunes - Viernes 8.00 - 12.00 y 16.00 - 20.00hs <br>Guardia las 24 hs</li>
                         </ul>
                     </div>
                     <div class="top-right">
@@ -83,12 +83,12 @@ if(isset($_SESSION['user'])){
                                     <span>Páginas</span>
                                     <ul>
                                         <li><a href="#">Sobre Nosotros</a></li>
-                                        <li><a href="#">Términos y condiciones</a></li>
+                                    <!--     <li><a href="#">Términos y condiciones</a></li> -->
                                     </ul>
                                 </li>
 
                                 <li class="dropdown">
-                                    <span>Especialidades Médicas</span>
+                                    <span>Diacnostico por imagenes</span>
                                     <ul>
                                         <li><a href="#">Departments</a></li>
                                         <li><a href="#">Tomografía Axial Computarizada</a></li>

@@ -42,7 +42,7 @@ session_start();
                     <div class="top-left">
                         <ul class="contact-list clearfix">
                             <li><i class="flaticon-hospital-1"></i>Alberdi 455 <br>Clorinda, Formosa, Argentina</li>
-                            <li><i class="flaticon-back-in-time"></i>Lunes - Sabados 8.00 - 18.00. <br> Domingos CERRADO</li>
+                            <li><i class="flaticon-back-in-time"></i>Lunes - Viernes 8.00 - 12.00 y 16.00 - 20.00hs <br>Guardia las 24 hs</li>
                         </ul>
                     </div>
                     <div class="top-right">
