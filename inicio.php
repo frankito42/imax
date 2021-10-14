@@ -45,7 +45,7 @@ if(!isset($_SESSION['user'])){
                     <div class="top-left">
                         <ul class="contact-list clearfix">
                             <li><i class="flaticon-hospital-1"></i>Alberdi 455 <br>Clorinda, Formosa, Argentina</li>
-                            <li><i class="flaticon-back-in-time"></i>Lunes - Sabados 8.00 - 18.00. <br> Domingos CERRADO</li>
+                            <li><i class="flaticon-back-in-time"></i>Lunes - Viernes 8.00 - 12.00 y 16.00 - 20.00hs <br>Guardia las 24 hs</li>
                         </ul>
                     </div>
                     <div class="top-right">
@@ -77,7 +77,7 @@ if(!isset($_SESSION['user'])){
                     <!--Nav Box-->
                     <div class="nav-outer">
                         <nav class="nav main-menu">
-                            <ul class="navigation" id="navbar">
+                            <ul class="navigation" id="">
                                 <li class="current"><a href="inicio.php">Mis Expedientes Clinicos</a></li>
                                <!-- <li class="dropdown">
                                     <span>Inicio</span>
@@ -326,8 +326,8 @@ if(!isset($_SESSION['user'])){
     <section class="contact-section" id="contact">
         <div class="small-container">
             <div class="sec-title text-center">
-                <span class="sub-title">Contact Now</span>
-                <h2>Write us a Message !</h2>
+                <span class="sub-title">Contactanos</span>
+                <h2>Escribe un mensaje !</h2>
                 <span class="divider"></span>
             </div>
 
@@ -337,17 +337,18 @@ if(!isset($_SESSION['user'])){
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
                             <span class="icon flaticon-worldwide"></span> 
-                            <h4><strong>Address</strong></h4>
-                            <p>185, Pickton Near Street, <br>Los Angeles, USA</p>
+                            <h4><strong>Direcciòn</strong></h4>
+                            <p>Alberdi 455 <br>
+                            Clorinda, Formosa, Argentina</p>
                         </div>
                     </div>
 
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
                             <span class="icon flaticon-phone"></span> 
-                            <h4><strong>Phone</strong></h4>
-                            <p><a href="#">(+92) 313 888 000</a></p>
-                            <p><a href="#">(+92) 313 999 000</a></p>
+                            <h4><strong>Telefono</strong></h4>
+                            <p><a href="#">(+54) 3718 542291</a></p>
+                            <p><a href="#">(+54) 3718 542291</a></p>
                         </div>
                     </div>
 
@@ -355,8 +356,8 @@ if(!isset($_SESSION['user'])){
                         <div class="inner">
                             <span class="icon flaticon-email"></span> 
                             <h4><strong>Email</strong></h4>
-                            <p><a href="mailto:support@example.com">support@example.com</a></p>
-                            <p><a href="mailto:support@example.com">support@example.com</a></p>
+                            <p><a href="mailto:imax@gmail.com">imax@gmail.com</a></p>
+                            <p><a href="mailto:imax@gmail.com">imax@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -469,7 +470,6 @@ if(!isset($_SESSION['user'])){
 
                                             <li>
                                                 <span class="icon flaticon-call-1"></span>
-                                                <div class="text">Lunes a Sábados : 08:30 - 18:00</div>
                                                 <a href="tel:+543718542291"><strong>+543718542291</strong></a>
                                             </li>
 
@@ -479,11 +479,6 @@ if(!isset($_SESSION['user'])){
                                                 <a href="mailto:imax@gmail.com"><strong>imax@gmail.com</strong></a></div>
                                             </li>
 
-                                            <li>
-                                                <span class="icon flaticon-back-in-time"></span>
-                                                <div class="text">Lunes - Sábados 8.00 - 18.00<br>
-                                                <strong>Domingos CERRADO</strong></div>
-                                            </li>
                                         </ul>
                                     </div>
                                 </div>

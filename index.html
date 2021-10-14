@@ -5,7 +5,7 @@
 <title>Imax - Centro de Servicios Médicos</title>
 
 <!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="b/css/bootstrap.css" rel="stylesheet">
 <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
 <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
 <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
@@ -71,13 +71,9 @@
                             <ul class="navigation" id="navbar">
                                 <li><a href="index.html">Inicio</a></li>
 
-                               <!--  <li class="dropdown">
-                                    <span>Páginas</span>
-                                    <ul>
-                                        <li><a href="#">Sobre Nosotros</a></li>
-                                        <li><a href="#">Términos y condiciones</a></li>
-                                    </ul>
-                                </li> -->
+                              
+                                <li><a href="about-us.php">Sobre Nosotros</a></li>
+                            
 
                                 <li class="dropdown">
                                     <span>Diacnostico por imagenes</span>
@@ -89,7 +85,7 @@
                                         <li><a href="#">Ortopantomografía (panorámicas dentales)</a></li>
                                         <li><a href="#">Ecografía</a></li>
                                         <li><a href="#">Ecocardiografía</a></li>
-                                        <li><a href="d#">Holter ECG (24 hs)</a></li>
+                                        <li><a href="#">Holter ECG (24 hs)</a></li>
                                         <li><a href="#">Ergometría</a></li>
                                         <li><a href="#">Espirometría</a></li>
                                         <li><a href="#">Test de caminata</a></li>
@@ -173,7 +169,8 @@
                     <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         
                         <!-- MAIN IMAGE -->
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="20" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/2.jpg">
+                        <img alt="" style="background-color: rgba(0,0,0,0.8);filter:brightness(0.4);-webkit-filter: grayscale(100%);
+                        filter: grayscale(100%);" class="rev-slidebg" data-bgfit="cover" data-bgparallax="20" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/2.jpg">
 
                         <div class="tp-caption" 
                         data-paddingbottom="[0,0,0,0]"
@@ -229,7 +226,7 @@
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <div class="text">Obtenga los resultados al instante. <br> Esta a un solo paso, solo debe iniciar sesión o registrarse. </div>
+                            <div style="background: #ffffff61;padding: 1px;" class="text">Imax es un Centro de Estudios y Servicios Medicos, que abre sus puertas en Clorinda luego de muchos años de inversion y desarrollo, con el objetivo de brindar a los habitantes de toda  la zona, la posibilidad de acceder a servicios de diagnostico de alta calidad, sin tener que trasladarse hasta grandes urbes como ha sido hasta ahora. </div>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -314,7 +311,7 @@
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <div class="text text-white">Puede saber mas a cerca de nosotros <br>en la pestaña "Sobre nosotros" </div>
+                            <div style="background: #00000033;padding: 7px;" class="text text-white">Puede saber mas a cerca de nosotros <br>en la pestaña "Sobre nosotros" </div>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -379,14 +376,169 @@
         </div>
     </section>
     <!-- End Features Section -->
+    <section>
+        <div class="container">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Tomografía Axial Computarizada
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Procedimiento para el que se usa una computadora conectada a una
+                        máquina de rayos X a fin de crear una serie de imágenes detalladas del
+                        interior del cuerpo. Las imágenes se toman desde diferentes ángulos y se
+                        usan para crear vistas tridimensionales (3D) de los tejidos y órganos.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Densitometría ósea.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La densitometría ósea es una prueba para determinar la densidad mineral ósea. Se puede
+                        realizar con rayos x, ultrasonidos o isótopos radiactivos. Sirve para el diagnóstico de
+                        osteoporosis. El test se realiza con el aparato que mide las imágenes y da una cifra de la
+                        cantidad mineral ósea por superficie.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo3" aria-expanded="false" aria-controls="flush-collapseTwo3">
+                        Mamografía.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo3" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Una mamografía es una imagen de la glándula mamaria tomada con
+                        rayos X. Los médicos usan las mamografías para detectar patologías en
+                        sus estadíos iniciales.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo4" aria-expanded="false" aria-controls="flush-collapseTwo4">
+                        Ortopantomografía (panorámicas dentales).
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo4" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo4" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La ortopantomografía o radiografía panorámica es una técnica radiológica que representa, en
+                        una única película, una imagen general de los maxilares, la mandíbula y los dientes. Por tanto,
+                        es de primordial utilidad en el área dentomaxilomandibular.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo5" aria-expanded="false" aria-controls="flush-collapseTwo5">
+                        Ecografía. 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo5" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo5" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Una ecografía es una prueba de diagnóstico por imágenes. También se
+                        denomina sonografía o ultrasonografía. Utiliza ondas de sonido de alta
+                        frecuencia para producir imágenes de los órganos internos. Las ondas
+                        sonoras se envían y rebotan cuando alcanzan los órganos.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo6" aria-expanded="false" aria-controls="flush-collapseTwo6">
+                        Ecocardiografía
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo6" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo6" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La ecocardiografía, también conocida como ultrasonido cardíaco o ecocardiograma, es una
+                        tecnología sanitaria que usa técnicas estándares de ultrasonido para producir imágenes en
+                        rebanadas de dos dimensiones del corazón. Además, los últimos sistemas de ultrasonido
+                        ahora emplean imágenes en tiempo real en 3D.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo7" aria-expanded="false" aria-controls="flush-collapseTwo7">
+                        Holter ECG (24 hs).
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo7" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo7" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">El Holter es un instrumento cardiológico que registra la actividad eléctrica del corazón durante
+                        varias horas. Con él se miden la actividad electrocardiográfica ... 
+                        Presurometria 24 ha (MAPA) <br>
+                        El MAPA (monitoreo ambulatoria de la presión arterial), también llamado holter de tensión
+                        arterial, es un método técnico no invasivo que pretende obtener una medición de la presión
+                        arterial durante un período de tiempo determinado, generalmente 24 horas.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo8" aria-expanded="false" aria-controls="flush-collapseTwo8">
+                        Ergometría. 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo8" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo8" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La ergometría, también llamada prueba de esfuerzo, es la prueba diagnóstica que consiste en
+                        realizar un registro del electrocardiograma durante un esfuerzo, caminando en una cinta
+                        .</div>
+                  </div>
+                </div>
+               
+               
+              </div>
+              <hr>
+              <h4>Estudios funcionales respiratorios</h4>
+              <hr>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                        Espirometría.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">La espirometría es la técnica de exploración de la función respiratoria que mide los flujos y los
+                        volúmenes respiratorios útiles para el diagnóstico y el seguimiento de patologías respiratorias.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo22">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo22" aria-expanded="false" aria-controls="flush-collapseTwo22">
+                        Test de caminata.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo22" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo22" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Esta prueba permite evaluar la capacidad de ejercicio en términos de la distancia total
+                        recorrida durante seis minutos, el grado de oxigenación, la respuesta de la frecuencia cardíaca
+                        y tensión arterial, la sensación subjetiva de esfuerzo medida por una escala (Borg) ante un
+                        esfuerzo rutinario (caminar).</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree33">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree33" aria-expanded="false" aria-controls="flush-collapseThree33">
+                        Electroencefalograma.
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree33" class="accordion-collapse collapse" aria-labelledby="flush-headingThree33" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Un electroencefalograma es una prueba que detecta la actividad eléctrica del cerebro
+                        mediante pequeños discos metálicos (electrodos) fijados sobre el cuero cabelludo. Las
+                        neuronas cerebrales se comunican a través de impulsos eléctricos y están activas todo el
+                        tiempo, incluso mientras duermes.</div>
+                  </div>
+                </div>
+              </div>
+
+</div>
+</section>
 
 
-    <!-- Clients Section -->
-    <section class="clients-section">
-        <div class="auto-container">
-
-            <!-- Sponsors Outer -->
-            <div class="sponsors-outer">
+<!-- Clients Section -->
+<section class="clients-section">
+    <div class="auto-container">
+            
+        <!-- Sponsors Outer -->
+        <div class="sponsors-outer">
                 <!--clients carousel-->
                 <ul class="clients-carousel owl-carousel owl-theme">
                     <li class="slide-item"> <a href="#"><img src="images/clients/1.png" alt=""></a> </li>
@@ -459,8 +611,8 @@
 
                                             <li>
                                                 <span class="icon flaticon-back-in-time"></span>
-                                                <div class="text">Lunes - Sábados 8.00 - 18.00<br>
-                                                <strong>Domingos CERRADO</strong></div>
+                                                <div class="text">Lunes - Viernes 8.00 - 12.00 y 16.00 - 20.00hs<br>
+                                                <strong>Guardia 24 horas</strong></div>
                                             </li>
                                         </ul>
                                     </div>
@@ -475,7 +627,7 @@
         <!--Footer Bottom-->
         <div class="footer-bottom">
             <!-- Scroll To Top -->
-            <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+            <div  id="aaaaaa"class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
             
             <div class="auto-container">
                 <div class="inner-container clearfix">
@@ -514,7 +666,7 @@
 <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="js/main-slider-script.js"></script>
 <!--Revolution Slider-->
-<script src="js/bootstrap.min.js"></script>
+<script src="b/js/bootstrap.min.js"></script>
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/mmenu.polyfills.js"></script>
 <script src="js/jquery.modal.min.js"></script>

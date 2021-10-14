@@ -292,16 +292,14 @@ session_start();
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class="sub-title">Nuestros medicos</span>
-                            <h2>Estamos estableciendo estándares en investigación y, además, atención clínica..</h2>
+                            <h2>Gracias a nuestra política de constante innovacion  continuaremos incorporando progresivamente nuevos estudios.</h2>
                             <span class="divider"></span>
-                            <p>Brindamos los servicios médicos más completos, por lo que cada persona podría tener la oportunidad de recibir ayuda médica de calidad..</p>
-                            <p>Estamos entre los más calificados con más de 30 años de formación y experiencia en calidad.</p>
+                            <p>Imax es un Centro de Estudios y Servicios Medicos, que abre sus puertas en Clorinda luego de muchos años de inversion y desarrollo, con el objetivo de brindar a los habitantes de toda  la zona, la posibilidad de acceder a servicios de diagnostico de alta calidad, sin tener que trasladarse hasta grandes urbes como ha sido hasta ahora.</p>
                         </div>
                         <div class="link-box">
-                            <figure class="signature"><img src="images/resource/signature.png" alt=""></figure>
-                            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">More About</span></a>
-                        </div>
+                            <figure class="signature"><img src="images/resource/imax5.jpg" alt=""></figure>
+<!--                             <a href="#" class="theme-btn btn-style-one"><span class="btn-title">More About</span></a>
+ -->                        </div>
                     </div>
                 </div>
 
@@ -311,11 +309,11 @@ session_start();
                         <div class="video-link">
                             <a href="https://www.youtube.com/watch?v=4UvS3k8D4rs" class="play-btn lightbox-image" data-fancybox="images"><span class="flaticon-play-button-1"></span></a>
                         </div>
-                        <figure class="image-1"><img src="images/resource/image-1.png" alt=""></figure>
-                        <figure class="image-2"><img src="images/resource/image-2.png" alt=""></figure>
+                        <figure class="image-1"><img src="images/resource/imax1.jpg" alt=""></figure>
+                        <figure class="image-2"><img src="images/resource/imax2.jpg" alt=""></figure>
                         <figure class="image-3">
                             <span class="hex"></span>
-                            <img src="images/resource/image-3.png" alt="">
+                            <img src="images/resource/imax3.jpg" style="width: 225px;height: 291px;" alt="">
                         </figure>
                     </div>
                 </div>
@@ -378,7 +376,7 @@ session_start();
                     <div class="inner-column">
                         <span class="title">¿Necesita un médico para un chequeo?</span>
                         <h3>Solo haz una cita <br> ¡y estas listo!</h3>
-                        <div class="text">Get Your Quote or Call: <strong>(0080) 123-453-789</strong></div>
+                        <div class="text">Telefono: <strong>(3718) 54-22-91</strong></div>
 
                         <div class="timetable-info">
                             <h3>Horario de apertura</h3>
@@ -565,9 +563,9 @@ session_start();
                 </div>
             </div>
 
-            <div class="image-column" style="background-image: url(images/resource/image-7.jpg);">
+            <div class="image-column" style="background-image: url(images/resource/maquina.jpg);">
                 <div class="image-box">
-                    <figure class="image"><img src="images/resource/image-7.jpg" alt=""></figure>
+                    <figure class="image"><img src="images/resource/imax5.jpg" alt=""></figure>
                 </div>
             </div>
         </div>

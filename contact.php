@@ -77,18 +77,12 @@ session_start();
                             <ul class="navigation" id="navbar">
                                 <li><a href="index.html">Inicio</a></li>
 
-                                <li class="dropdown">
-                                    <span>Páginas</span>
-                                    <ul>
-                                        <li><a href="#">Sobre Nosotros</a></li>
-                                        <li><a href="#">Términos y condiciones</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="about-us.php">Sobre Nosotros</a></li>
+
 
                                 <li class="dropdown">
                                     <span>Especialidades Médicas</span>
                                     <ul>
-                                        <li><a href="#">Departments</a></li>
                                         <li><a href="#">Tomografía Axial Computarizada</a></li>
                                         <li><a href="#">Densitometría ósea</a></li>
                                         <li><a href="#">Mamografía</a></li>
