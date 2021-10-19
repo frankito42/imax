@@ -88,9 +88,7 @@ session_start();
                                     </ul>
                                 </li>
  -->
-                                <li class="current dropdown">
-                                    <span>PAGINAS</span>
-                                    <ul>
+                              
                                         <li class="current"><a href="about-us.php">Sobre nosotros</a></li>
 <!--                                         <li><a href="services.html">Services</a></li>
                                         <li><a href="gallery.html">Gallery</a></li>
@@ -99,7 +97,24 @@ session_start();
                                         <li><a href="coming-soon.html">Coming Soon</a></li>
                                         <li><a href="error-page.html">Error 404</a></li>
                                         <li><a href="terms-and-condition.html">Terms and Condition</a></li> -->
+                                        <li class="dropdown">
+                                    <span>D iagnostico por imagenes</span>
+                                    <ul>
+                                        <li><a href="#">Tomografía Axial Computarizada</a></li>
+                                        <li><a href="#">Densitometría ósea</a></li>
+                                        <li><a href="#">Mamografía</a></li>
+                                        <li><a href="#">Ortopantomografía (panorámicas dentales)</a></li>
+                                        <li><a href="#">Ecografía</a></li>
+                                        <li><a href="#">Ecocardiografía</a></li>
+                                        <li><a href="#">Holter ECG (24 hs)</a></li>
+                                        <li><a href="#">Ergometría</a></li>
+                                        <li><a href="#">Espirometría</a></li>
+                                        <li><a href="#">Test de caminata</a></li>
+                                        <li><a id="elec" href="#">Electroencefalograma</a></li>
                                     </ul>
+                                </li>
+                                        <li class="dropdown">
+                                    <a href="login.php">Inicia Sesíon</a>
                                 </li>
                                 <!-- <li class="dropdown">
                                     <span>Doctors</span>
@@ -381,10 +396,8 @@ session_start();
                         <div class="timetable-info">
                             <h3>Horario de apertura</h3>
                             <ul class="timing-list">
-                                <li>Lunes - Jueves <span>08:00 - 20:00</span></li>
-                                <li>Viernes <span>09:00 - 19:00</span></li>
-                                <li>Sabado - Jueves <span>09:00 - 18:00</span></li>
-                                <li>Domingo - Jueves <span>09:00 - 18:00</span></li>
+                                <li>Lunes - Viernes <span>08:00 - 20:00</span></li>
+                                <li>Viernes - Domingo<span>08:00 - 20:00</span></li>
                             </ul>
                         </div>
                     </div>
@@ -842,7 +855,7 @@ session_start();
                     </div>
                     
                     <div class="copyright-text">
-                        <p>Copyright © 2020 <a href="#">Bold Touch</a>All Rights Reserved.</p>
+                    <p>Copyright © 2021 <a href="#">Imax </a>All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

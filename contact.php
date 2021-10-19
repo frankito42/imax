@@ -81,7 +81,7 @@ session_start();
 
 
                                 <li class="dropdown">
-                                    <span>Especialidades Médicas</span>
+                                    <span>Discnostico por imagenes</span>
                                     <ul>
                                         <li><a href="#">Tomografía Axial Computarizada</a></li>
                                         <li><a href="#">Densitometría ósea</a></li>
@@ -93,7 +93,7 @@ session_start();
                                         <li><a href="#">Ergometría</a></li>
                                         <li><a href="#">Espirometría</a></li>
                                         <li><a href="#">Test de caminata</a></li>
-                                        <li><a href="#">Electroencefalograma</a></li>
+                                        <li><a id="elec" href="#">Electroencefalograma</a></li>
                                     </ul>
                                 </li>
 
@@ -251,8 +251,8 @@ session_start();
     <section class="contact-section" id="contact">
         <div class="small-container">
             <div class="sec-title text-center">
-                <span class="sub-title">Contact Now</span>
-                <h2>Write us a Message !</h2>
+                <span class="sub-title">Contactanos ahora!</span>
+                <h2>Alberdi 455 <Br>Clorinda - Formosa - Argentina</h2>
                 <span class="divider"></span>
             </div>
 
@@ -262,17 +262,17 @@ session_start();
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
                             <span class="icon flaticon-worldwide"></span> 
-                            <h4><strong>Address</strong></h4>
-                            <p>185, Pickton Near Street, <br>Los Angeles, USA</p>
+                            <h4><strong>Direccion</strong></h4>
+                            <p>Alberdi 455 <Br>Clorinda - Formosa - Argentina</p>
                         </div>
                     </div>
 
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
                             <span class="icon flaticon-phone"></span> 
-                            <h4><strong>Phone</strong></h4>
-                            <p><a href="#">(+92) 313 888 000</a></p>
-                            <p><a href="#">(+92) 313 999 000</a></p>
+                            <h4><strong>Telefono</strong></h4>
+                            <p><a href="#">+54 3718 542291</a></p>
+                            <p><a href="#">+54 3718 542291</a></p>
                         </div>
                     </div>
 
@@ -280,8 +280,8 @@ session_start();
                         <div class="inner">
                             <span class="icon flaticon-email"></span> 
                             <h4><strong>Email</strong></h4>
-                            <p><a href="mailto:support@example.com">support@example.com</a></p>
-                            <p><a href="mailto:support@example.com">support@example.com</a></p>
+                            <p><a href="mailto:imax@gmail.com">imax@gmail.com</a></p>
+                            <p><a href="mailto:imax@gmail.com">imax@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -406,8 +406,9 @@ session_start();
 
                                             <li>
                                                 <span class="icon flaticon-back-in-time"></span>
-                                                <div class="text">Lunes - Sábados 8.00 - 18.00<br>
-                                                <strong>Domingos CERRADO</strong></div>
+                                                <div class="text">Lunes - Viernes 8.00 - 12.00 y 16.00 - 20.00hs <br>
+                                                Guardia las 24 horas.
+                                            </div>
                                             </li>
                                         </ul>
                                     </div>

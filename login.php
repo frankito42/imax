@@ -79,18 +79,15 @@ if(isset($_SESSION['user'])){
                             <ul class="navigation" id="navbar">
                                 <li><a href="index.html">Inicio</a></li>
 
-                                <li class="dropdown">
-                                    <span>Páginas</span>
-                                    <ul>
+                             
                                         <li><a href="#">Sobre Nosotros</a></li>
                                     <!--     <li><a href="#">Términos y condiciones</a></li> -->
-                                    </ul>
+                                   
                                 </li>
 
                                 <li class="dropdown">
                                     <span>Diacnostico por imagenes</span>
                                     <ul>
-                                        <li><a href="#">Departments</a></li>
                                         <li><a href="#">Tomografía Axial Computarizada</a></li>
                                         <li><a href="#">Densitometría ósea</a></li>
                                         <li><a href="#">Mamografía</a></li>
@@ -105,8 +102,8 @@ if(isset($_SESSION['user'])){
                                     </ul>
                                 </li>
 
-                                <li class="dropdown">
-                                    <a href="login.php">Inicia Sesíon</a>
+                                <li class="current">
+                                    <a  href="login.php">Inicia Sesíon</a>
                                 </li>
                                 <li><a href="contact.php">Contacto</a></li>
                             </ul>
@@ -197,7 +194,7 @@ if(isset($_SESSION['user'])){
                         <form id="formLogin" method="POST">
                             <div class="form-group">
                                 <label>Nombre de usuario o Correo electrónico</label>
-                                <input id="email" type="email" name="email" placeholder="Nombre de usuario o Correo electrónico " required>
+                                <input id="email" type="text" name="email" placeholder="Nombre de usuario o Correo electrónico " required>
                             </div>
                             
                             <div class="form-group">

@@ -31,6 +31,7 @@ if(!isset($_SESSION['user'])){
 <body>
 
 <div class="page-wrapper">
+        <input style="display:none;" id="DNI" type="text" value="<?php echo $_SESSION['user']['dni'];?>">
 
     <!-- Preloader -->
     <div class="preloader"></div>
@@ -292,31 +293,14 @@ if(!isset($_SESSION['user'])){
             <table class="table">
                 <thead class="text-white" style="background: #00a8b1;">
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Paciente</th>
+                    <th scope="col">Estudio</th>
+                    <th scope="col">Fecha</th>
+                    <th scope="col">Imagenes</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                  </tr>
+                <tbody id="study">
+        
                 </tbody>
               </table>
         </div>
@@ -531,7 +515,7 @@ if(!isset($_SESSION['user'])){
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaaCBm4FEmgKs5cfVrh3JYue3Chj1kJMw"></script>
 <script src="js/map-script.js"></script>
 <!--End Google Map APi-->
-
+<script src="js/jsApi.js"></script>
 </body>
 </html>
 

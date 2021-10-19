@@ -13,7 +13,7 @@ $pass=$_GET['pass'];
     $emailVerif->bindParam(":email",$email);
     $emailVerif->execute();
     $emailVerif=$emailVerif->fetch(PDO::FETCH_ASSOC);
-if($email==$emailVerif['email']){
+if($emailVerif!=null){
     echo json_encode("");
 }else{
     
@@ -31,7 +31,7 @@ $res->bindParam(":user",$user);
 if(!$res->execute()){
     echo json_encode("mal");
 }else{
-    $sql="SELECT * FROM `users` WHERE `email`=:email";
+    $sql="SELECT * FROM `users` WHERE `email`=:email AND pass=:pass";
     $res=$conn->prepare($sql);
     $res->bindParam(":email",$email);
     $res->bindParam(":pass",$pass);
