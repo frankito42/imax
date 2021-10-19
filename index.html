@@ -102,7 +102,7 @@
                         <!-- Main Menu End-->
 
                         <div class="outer-box">
-                             <a href="appointment.html" id="appointment-btn" class="theme-btn btn-style-one"><span class="btn-title">Turnos</span></a>
+                             <button id="myBtn" class="theme-btn btn-style-one"><span class="btn-title">Turnos</span></button>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                         data-y="['middle','middle','middle','middle']"
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                            <div style="background: #ffffff61;padding: 1px;" class="text">Imax es un Centro de Estudios y Servicios Medicos, que abre sus puertas en Clorinda luego de muchos años de inversion y desarrollo, con el objetivo de brindar a los habitantes de toda  la zona, la posibilidad de acceder a servicios de diagnostico de alta calidad, sin tener que trasladarse hasta grandes urbes como ha sido hasta ahora. </div>
+                            <div style="background: #ffffffc9;padding: 1px;" class="text">Imax es un Centro de Estudios y Servicios Medicos, que abre sus puertas en Clorinda luego de muchos años de inversion y desarrollo, con el objetivo de brindar a los habitantes de toda  la zona, la posibilidad de acceder a servicios de diagnostico de alta calidad, sin tener que trasladarse hasta grandes urbes como ha sido hasta ahora. </div>
                         </div>
                         
                         <div class="tp-caption tp-resizeme" 
@@ -651,6 +651,23 @@
 
 </div><!-- End Page Wrapper -->
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+            <div class="contact-form-two">
+                <div class="title-box">
+                    <h4>Sacar turno</h4>
+                    <div class="text">Para sacar un turno debe comunicarse vía telefónica o a travéz de whatsapp. Al número: <a href="tel:+543718123456">+543718123456</a>
+                </div>
+                </div>
+            </div>
+    </div>
+  
+  </div>
+
 <script src="js/jquery.js"></script> 
 <script src="js/popper.min.js"></script>
 <!--Revolution Slider-->
@@ -677,6 +694,80 @@
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
 </body>
+
+<style>
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  width: 100% !important; /* Full width */
+  height: 100% !important; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(0 0 0 / 63%);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    z-index: 2;
+    color: #a58f8f;
+    float: right;
+    font-weight: bold;
+    position: absolute;
+    right: -1%;
+    top: -7%;
+    font-size: 271%;
+    background: black;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<script>
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 </html>
 
 

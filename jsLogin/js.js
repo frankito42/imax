@@ -18,7 +18,11 @@ async function loguear() {
   .then(response => response.json())
   .then((data) => {
     console.log(data)
-    location.href = "inicio.php"
+    if(data=="mal"){
+      alert("Ocurrio un error. Vuelva a intentar.")
+    }else{
+      location.href = "inicio.php"
+    }
    /*  alert("perfet") */
   });
 }
@@ -34,9 +38,10 @@ async function registrar() {
   .then((data) => {
     if (data=="") {
       alert("El email ya esta registrado.")
+    }else{
+      location.href = "inicio.php"
     }
-    console.log(data)
-    location.href = "inicio.php"
+    /* console.log(data) */
 
    /*  alert("perfet") */
   });

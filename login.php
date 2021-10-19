@@ -80,7 +80,7 @@ if(isset($_SESSION['user'])){
                                 <li><a href="index.html">Inicio</a></li>
 
                              
-                                        <li><a href="#">Sobre Nosotros</a></li>
+                                        <li><a href="about-us.php">Sobre Nosotros</a></li>
                                     <!--     <li><a href="#">Términos y condiciones</a></li> -->
                                    
                                 </li>

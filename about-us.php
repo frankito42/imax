@@ -98,7 +98,7 @@ session_start();
                                         <li><a href="error-page.html">Error 404</a></li>
                                         <li><a href="terms-and-condition.html">Terms and Condition</a></li> -->
                                         <li class="dropdown">
-                                    <span>D iagnostico por imagenes</span>
+                                    <span>Diagnostico por imagenes</span>
                                     <ul>
                                         <li><a href="#">Tomografía Axial Computarizada</a></li>
                                         <li><a href="#">Densitometría ósea</a></li>
