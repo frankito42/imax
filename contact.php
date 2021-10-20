@@ -232,16 +232,7 @@ session_start();
     <section class="map-section">
         <div class="auto-container">
             <div class="map-outer">
-                <div class="map-canvas"
-                    data-zoom="12"
-                    data-lat="-37.817085"
-                    data-lng="144.955631"
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-icon-path="images/icons/map-marker.png"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                </div>
+            <iframe style="width: 100% !important;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d901.8611678164864!2d-57.711897670802536!3d-25.289259986413885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945d08e9cfe3a0eb%3A0x148c3dff0c09b3c1!2sJuan%20Bautista%20Alberdi%20455%2C%20P3610DFI%20Clorinda%2C%20Formosa!5e0!3m2!1ses-419!2sar!4v1634728682945!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
@@ -459,8 +450,8 @@ session_start();
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
 <!--Google Map APi Key-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaaCBm4FEmgKs5cfVrh3JYue3Chj1kJMw"></script>
-<script src="js/map-script.js"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaaCBm4FEmgKs5cfVrh3JYue3Chj1kJMw"></script>
+<script src="js/map-script.js"></script> -->
 <!--End Google Map APi-->
 
 </body>
