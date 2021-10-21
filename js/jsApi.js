@@ -23,11 +23,15 @@ async function iniciar() {
       let table=``
       data.forEach(element => {
         table+=`
-        <tr>
+        <tr onclick="window.open(
+            'https://estudio.informemedico.com.ar/#/168/${element.hashed_id}',
+            '_blank' // <- This is what makes it open in a new window.
+          );">
             <td>${element.patientname}</td>
-            <td>${element.idstudy}</td>
+            <td>${element.patientid}</td>
+           
             <td>${element.studydate}</td>
-            <td>IMG</td>
+            <td>ABRIR ESTUDIO</td>
         </tr>
         `
       });
