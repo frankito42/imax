@@ -210,12 +210,12 @@ session_start();
                 <div class="outer-box">
                     <!-- Search Btn -->
                     <div class="search-box">
-                        <button class="search-btn mobile-search-btn"><i class="flaticon-magnifying-glass"></i></button>
-                    </div>
+<!--                         <button class="search-btn mobile-search-btn"><i class="flaticon-magnifying-glass"></i></button>
+ -->                    </div>
 
                     <!-- Cart Btn -->
-                    <button class="cart-btn"><i class="icon flaticon-shopping-cart"></i><span class="count">3</span></button>
-
+<!--                     <button class="cart-btn"><i class="icon flaticon-shopping-cart"></i><span class="count">3</span></button>
+ -->
                     <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="fa fa-bars"></span></a>
                 </div>
             </div>
