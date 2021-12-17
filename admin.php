@@ -233,5 +233,5 @@
 <script src="mdb5/js/mdb.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="lib/toastr/toastr.min.js"></script>
-<script src="/jsAdmin/jsAdmin.js"></script>
+<script src="jsAdmin/jsAdmin.js"></script>
 </html>
