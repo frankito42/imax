@@ -3,6 +3,9 @@ session_start();
 if(!isset($_SESSION['user'])){
     header('location: index.html');
 }
+if($_SESSION['user']["tipo"]==1){
+    header('location: admin.php');
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -162,7 +165,7 @@ if(!isset($_SESSION['user'])){
                         <li class="dropdown">
                             <span><?php echo $_SESSION['user']['nombreCompleto']?></span>
                             <ul>
-                                <li><a href="#">Cerrar sesion</a></li>
+                                <li><a href="phpLogin/logout.php">Cerrar sesion</a></li>
                                 <!-- <li><a href="#">Densitometría ósea</a></li>
                                 <li><a href="#">Mamografía</a></li>
                                 <li><a href="#">Ortopantomografía (panorámicas dentales)</a></li>
@@ -296,20 +299,24 @@ if(!isset($_SESSION['user'])){
     <!--End Page Title-->
     <BR></BR>
     <div class="row justify-content-md-center">
-        <div class="col col-8">
+        <div class="col">
+            <h3>Mis Expedientes</h3>
+            <div class="table-responsive">
             <table class="table table-hover">
                 <thead class="text-white" style="background: #00a8b1;">
                   <tr>
                     <th scope="col">Paciente</th>
                     <th scope="col">Dni</th>
                     <th scope="col">Fecha</th>
-                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody id="study">
-        
+                    <tr class="text-center">
+                        <td colspan="4">Cargando...</td>
+                    </tr>    
                 </tbody>
               </table>
+              </div>
         </div>
     </div>
 

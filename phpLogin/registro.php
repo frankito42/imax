@@ -8,14 +8,14 @@ $dni=$_GET['dni'];
 $domicilio=$_GET['domicilio'];
 $pass=$_GET['pass'];
 
-    $sqlemail="SELECT * FROM `users` WHERE `email`=:email";
-    $emailVerif=$conn->prepare($sqlemail);
-    $emailVerif->bindParam(":email",$email);
-    $emailVerif->execute();
-    $emailVerif=$emailVerif->fetch(PDO::FETCH_ASSOC);
-if($emailVerif!=null){
-    echo json_encode("");
-}else{
+   // $sqlemail="SELECT * FROM `users` WHERE `email`=:email";
+    //$emailVerif=$conn->prepare($sqlemail);
+    //$emailVerif->bindParam(":email",$email);
+    //$emailVerif->execute();
+    //$emailVerif=$emailVerif->fetch(PDO::FETCH_ASSOC);
+//if($emailVerif!=null){
+  //  echo json_encode("");
+//}else{
     
 $sql="INSERT INTO `users`(`email`, `pass`, `nombreCompleto`, `dni`, `domicilio`, `user`) VALUES (:email,:pass,:nombreCompleto,:dni,:domicilio,:user)";
 $res=$conn->prepare($sql);
@@ -40,7 +40,7 @@ if(!$res->execute()){
     $_SESSION["user"]=$res;
     echo json_encode($res);
 }
-}
+//}
 
 
 

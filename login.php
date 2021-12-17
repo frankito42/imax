@@ -217,7 +217,6 @@ if(isset($_SESSION['user'])){
                     </div>
                     <!--End Login Form -->
                 </div>
-                
                 <div class="column col-lg-6 col-md-6 col-sm-12">
                     
                     <!-- Register Form -->
@@ -245,7 +244,7 @@ if(isset($_SESSION['user'])){
 
                             <div class="form-group">
                                 <label>Correo Electrónico</label>
-                                <input id="emailR" type="email" name="email" placeholder="tucorreo@mail.com" required>
+                                <input id="emailR" type="email" name="email" placeholder="tucorreo@mail.com">
                             </div>
                             
                             <div class="form-group">
@@ -253,7 +252,7 @@ if(isset($_SESSION['user'])){
 
                                     <div class="col">
                                         <label>Domicilio</label>
-                                        <input id="domicilio" type="text" name="" placeholder="Domicilio" required>
+                                        <input id="domicilio" type="text" name="" placeholder="Domicilio">
                                     </div>
                                     <div class="col">
                                         <label>DNI</label>
@@ -270,6 +269,9 @@ if(isset($_SESSION['user'])){
                     </div>
                     <!--End Register Form -->
                 </div>
+                 
+                
+               
             </div>
         </div>
     </section>

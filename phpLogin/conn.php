@@ -1,9 +1,9 @@
 <?php
 
 $server = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'imaxdb';
+$username = 'imaxcoma_fran';
+$password = '020500Francisco';
+$database = 'imaxcoma_imaxdb';
 
 try {
     $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);

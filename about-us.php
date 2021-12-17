@@ -321,9 +321,9 @@ session_start();
                 <!-- Images Column -->
                 <div class="images-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <div class="video-link">
+                        <!--<div class="video-link">
                             <a href="https://www.youtube.com/watch?v=4UvS3k8D4rs" class="play-btn lightbox-image" data-fancybox="images"><span class="flaticon-play-button-1"></span></a>
-                        </div>
+                        </div> -->
                         <figure class="image-1"><img src="images/resource/imax1.jpg" alt=""></figure>
                         <figure class="image-2"><img src="images/resource/imax2.jpg" alt=""></figure>
                         <figure class="image-3">
@@ -692,10 +692,10 @@ session_start();
                     </div>
 
                     <div class="video-column">
-                        <div class="btn-box">
+                        <!--<div class="btn-box">
                             <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button" aria-hidden="true"></i><span class="ripple"></span></a>
                             <span class="title">Watch now</span>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

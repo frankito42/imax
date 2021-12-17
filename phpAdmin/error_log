@@ -1,0 +1,10 @@
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'email' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 12
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'pass' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 13
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'nombre' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 14
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'dni' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 15
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'domicilio' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 16
+[14-Dec-2021 07:29:59 America/New_York] PHP Warning:  Attempt to modify property 'user' of non-object in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 17
+[14-Dec-2021 07:33:28 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 18
+[14-Dec-2021 08:50:07 America/New_York] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 22
+[14-Dec-2021 08:50:17 America/New_York] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 22
+[14-Dec-2021 08:52:54 America/New_York] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/imaxcoma/public_html/phpAdmin/usuariosUpdate.php on line 22
