@@ -17,13 +17,13 @@
               $row = mysqli_fetch_assoc($sql);
             }
           ?>
-          <img src="php/images/<?php echo $row['img']; ?>" alt="">
+          <i style="color:black;" class="fas fa-user fa-3x"></i>
           <div class="details">
             <span><?php echo $row['nombreCompleto'] ?></span>
             <p><?php echo $row['status']; ?></p>
           </div>
         </div>
-        <a href="php/logout.php?logout_id=<?php echo $row['id']; ?>" class="logout">Salir</a>
+        <a href="../../inicio.php" class="logout">Salir</a>
       </header>
       <div class="search">
         <span class="text">Seleccionar un usuario para chatear</span>

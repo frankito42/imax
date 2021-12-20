@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    include_once "config.php";
+    include_once "config.php"; 
     $user = mysqli_real_escape_string($conn, $_POST['user']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
     if(!empty($user) && !empty($password)){

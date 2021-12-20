@@ -15,15 +15,18 @@
         ($row['status'] == "Desconectado") ? $offline = "offline" : $offline = "";
         ($outgoing_id == $row['id']) ? $hid_me = "hide" : $hid_me = "";
 
-        $output .= '<a href="chat.php?user_id='. $row['id'] .'">
-                    <div class="content">
-                    <img src="php/images/'. $row['img'] .'" alt="">
-                    <div class="details">
-                        <span>'. $row['nombreCompleto'].'</span>
-                        <p>'. $you . $msg .'</p>
-                    </div>
-                    </div>
-                    <div class="status-dot '. $offline .'"><i class="fas fa-circle"></i></div>
-                </a>';
+        
+            $output .= '<a href="chat.php?user_id='. $row['id'] .'">
+            <div class="content">
+            <i style="color:#20a2ffdb;" class="fas fa-user fa-3x"></i>
+            <div class="details">
+                <span>'. $row['nombreCompleto'].'</span>
+                <p>'. $you . $msg .'</p>
+            </div>
+            </div>
+            <div class="status-dot '. $offline .'"><i class="fas fa-circle"></i></div>
+            </a>';
+
+
     }
 ?>

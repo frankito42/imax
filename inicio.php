@@ -165,7 +165,8 @@ if($_SESSION['user']["tipo"]==1){
                         <li class="dropdown">
                             <span><?php echo $_SESSION['user']['nombreCompleto']?></span>
                             <ul>
-                                <li><a href="phpLogin/logout.php">Cerrar sesion</a></li>
+                                <li><a href="chatAPP/chat-app-main/users.php">Atencion Al Cliente</a></li>
+                                <li><a href="phpLogin/logout.php">Cerrar Sesion</a></li>
                                 <!-- <li><a href="#">Densitometría ósea</a></li>
                                 <li><a href="#">Mamografía</a></li>
                                 <li><a href="#">Ortopantomografía (panorámicas dentales)</a></li>
