@@ -30,7 +30,7 @@
         <input type="text" placeholder="Ingresa un nombre...">
         <button><i class="fas fa-search"></i></button>
       </div>
-      <div class="users-list">
+      <div  class="users-list">
   
       </div>
     </section>

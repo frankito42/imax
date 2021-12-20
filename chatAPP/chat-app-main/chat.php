@@ -26,7 +26,7 @@
           <p><?php echo $row['status']; ?></p>
         </div>
       </header>
-      <div class="chat-box">
+      <div style="background-image: url('chat.png');background-repeat: no-repeat;background-size: cover;" class="chat-box">
 
       </div>
       <form action="#" class="typing-area">
