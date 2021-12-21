@@ -11,6 +11,13 @@
         $query = mysqli_query($conn, $sql);
         if(mysqli_num_rows($query) > 0){
             while($row = mysqli_fetch_assoc($query)){
+
+               /*  if($row['leido'] == 0 && $row['incoming_msg_id'] == $_SESSION['unique_id']){
+                    $sql = "UPDATE `messages` SET `leido`=1 WHERE msg_id={$row['msg_id']}";
+                    $query = mysqli_query($conn, $sql);
+                } */
+
+
                 if($row['outgoing_msg_id'] === $outgoing_id){
                     $output .= '<div class="chat outgoing">
                                 <div class="details">

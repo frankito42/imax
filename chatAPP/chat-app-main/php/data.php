@@ -1,6 +1,6 @@
 <?php
     while($row = mysqli_fetch_assoc($query)){
-        $sql2 = "SELECT * FROM messages WHERE (incoming_msg_id = {$row['id']}
+        $sql2 = "SELECT msg,(SELECT count(*) from messages where leido=0 and incoming_msg_id={$_SESSION['unique_id']}) total FROM messages WHERE (incoming_msg_id = {$row['id']}
                 OR outgoing_msg_id = {$row['id']}) AND (outgoing_msg_id = {$outgoing_id} 
                 OR incoming_msg_id = {$outgoing_id}) ORDER BY msg_id DESC LIMIT 1";
         $query2 = mysqli_query($conn, $sql2);

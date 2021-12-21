@@ -6,7 +6,9 @@
 
     if($_SESSION['unique_id']==27){
         $outgoing_id = $_SESSION['unique_id'];
-        $sql = "SELECT * FROM users WHERE NOT id = {$outgoing_id} ORDER BY id DESC";
+        $sql = "SELECT DISTINCT  u.`id`, u.`email`, u.`pass`, u.`nombreCompleto`, u.`dni`, u.`domicilio`, u.`tipo`, u.`status`, u.`img`,(SELECT msg FROM messages WHERE outgoing_msg_id=u.id ORDER BY msg_id DESC limit 1),
+        (SELECT msg_id FROM messages WHERE outgoing_msg_id=u.id  ORDER BY msg_id DESC limit 1) msssss
+        FROM users =u where not u.id=27 ORDER BY msssss DESC";
         
         $query = mysqli_query($conn, $sql);
         $output = "";

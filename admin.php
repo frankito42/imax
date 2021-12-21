@@ -30,6 +30,8 @@
         </li>
         <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="chatAPP/chat-app-main/users.php">CHATS</a>
+        </li>
+        <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="phpLogin/logout.php">CERRAR SESION</a>
         </li>
         <!-- <li class="nav-item">
