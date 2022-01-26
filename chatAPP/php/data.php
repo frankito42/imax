@@ -24,7 +24,7 @@
         ($outgoing_id == $row['id']) ? $hid_me = "hide" : $hid_me = "";
 
         
-            $output .= '<a href="chat.php?user_id='. $row['id'] .'">
+            $output .= '<a onclick="cargar('. $row['id'] .')">
             <div class="content">
             <i style="color:#20a2ffdb;" class="fas fa-user fa-3x"></i>
             <div class="details">

@@ -1,3 +1,7 @@
+<?php
+  /* session_start(); */
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,9 +32,9 @@
         <li class="nav-item active">
           <a class="nav-link" aria-current="page" href="#news">ADMINISTRACION IMAX</a>
         </li>
-        <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="chatAPP/chat-app-main/users.php">CHATS</a>
-        </li>
+       <!--  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="chatAPP/users.php">CHATS</a>
+        </li> -->
         <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="phpLogin/logout.php">CERRAR SESION</a>
         </li>
@@ -224,8 +228,10 @@
 <!-- Modal --><!-- Modal --><!-- Modal --><!-- Modal --><!-- Modal --><!-- Modal --><!-- Modal -->
 
 
-
-
+<button id="ocultarChat" class="btn btn-blue" style="position: fixed;bottom: 1%;left: 1%;z-index: 99;color:white;background:#40b0ff;">OCULTAR CHAT</button>
+<div id="chatiando" style="position: fixed;bottom: 0.5%;right: 0.5%;">
+ 
+</div>
 
 
 

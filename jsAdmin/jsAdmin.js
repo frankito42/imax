@@ -18,7 +18,7 @@ class UserEdit {
 document.addEventListener("DOMContentLoaded", async function(event) {
     // Your code to run since DOM is loaded and ready
     await iniciar()
-
+    cargar()
     document.getElementById('form12222').addEventListener('keyup', filtrar);
     
     myModalEdit.addEventListener('show.mdb.modal', (event) => {
@@ -146,3 +146,17 @@ while(row = table.rows[r++])
 }
 }
 
+
+function cargar() {
+  $("#chatiando").load("chatAPP/users.php")
+}
+document.getElementById("ocultarChat").addEventListener("click",()=>{
+  console.log(document.getElementById("ocultarChat").innerText)
+  if (document.getElementById("ocultarChat").innerText=="OCULTAR CHAT") {
+    document.getElementById("chatiando").style.display="none"
+    document.getElementById("ocultarChat").innerHTML="Mostrar chat"
+  }else{
+    document.getElementById("chatiando").style.display="block"
+    document.getElementById("ocultarChat").innerHTML="OCULTAR CHAT"
+  }
+})

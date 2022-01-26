@@ -165,7 +165,7 @@ if($_SESSION['user']["tipo"]==1){
                         <li class="dropdown">
                             <span><?php echo $_SESSION['user']['nombreCompleto']?></span>
                             <ul>
-                                <li><a href="chatAPP/chat-app-main/users.php">Atencion Al Cliente</a></li>
+                                <!-- <li><a href="chatAPP/chat-app-main/users.php">Atencion Al Cliente</a></li> -->
                                 <li><a href="phpLogin/logout.php">Cerrar Sesion</a></li>
                                 <!-- <li><a href="#">Densitometría ósea</a></li>
                                 <li><a href="#">Mamografía</a></li>
@@ -512,8 +512,10 @@ if($_SESSION['user']["tipo"]==1){
     </footer>
 
 </div><!-- End Page Wrapper -->
-
-
+<button id="ocultarChat" class="btn btn-blue" style="position: fixed;bottom: 1%;left: 1%;z-index: 99;color:white;background:#40b0ff;">OCULTAR CHAT</button>
+<div id="chatiando" style="position: fixed;bottom: 0.5%;right: 0.5%;z-index: 99;">
+ 
+</div>
 <script src="js/jquery.js"></script> 
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -1,4 +1,4 @@
-const searchBar = document.querySelector(".search input"),
+searchBar = document.querySelector(".search input"),
 searchIcon = document.querySelector(".search button"),
 usersList = document.querySelector(".users-list");
 
@@ -20,7 +20,7 @@ searchBar.onkeyup = ()=>{
     searchBar.classList.remove("active");
   }
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "php/search.php", true);
+  xhr.open("POST", "chatAPP/php/search.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState === XMLHttpRequest.DONE){
         if(xhr.status === 200){
@@ -33,9 +33,9 @@ searchBar.onkeyup = ()=>{
   xhr.send("searchTerm=" + searchTerm);
 }
 
-setInterval(() =>{
+setInterval(async() =>{
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", "php/users.php", true);
+  xhr.open("GET", "chatAPP/php/users.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState === XMLHttpRequest.DONE){
         if(xhr.status === 200){
@@ -47,5 +47,30 @@ setInterval(() =>{
     }
   }
   xhr.send();
-}, 500);
+   contador()
+}, 3000);
+
+ function contador() {
+  fetch('chatAPP/php/contarMensajes.php')
+  .then(response => response.json())
+  .then((data) => {
+    console.log(data)
+    if (localStorage.getItem("contadorMensajes")!=data.total) {
+      let music = new Audio('chatAPP/in.wav');
+      music.play();
+      /* music.loop =true;
+      music.playbackRate = 2;
+      music.pause(); */
+    }
+    localStorage.setItem("contadorMensajes",data.total)
+  });
+}
+
+
+function cargar(id) {
+  $("#chatiando").load("chatAPP/chat.php?user_id="+id)
+}
+
+
+
 

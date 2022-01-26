@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function(event) {
     // Your code to run since DOM is loaded and ready
+    cargar()
     await iniciar().catch(function(error) {
   alert('Actulalizando datos del siestema por favor ingrese en otro momento.');
   document.getElementById("study").innerHTML=`
@@ -41,3 +42,18 @@ async function iniciar() {
     });
     
 }
+
+
+function cargar() {
+  $("#chatiando").load("chatAPP/users.php")
+}
+document.getElementById("ocultarChat").addEventListener("click",()=>{
+  console.log(document.getElementById("ocultarChat").innerText)
+  if (document.getElementById("ocultarChat").innerText=="OCULTAR CHAT") {
+    document.getElementById("chatiando").style.display="none"
+    document.getElementById("ocultarChat").innerHTML="Mostrar chat"
+  }else{
+    document.getElementById("chatiando").style.display="block"
+    document.getElementById("ocultarChat").innerHTML="OCULTAR CHAT"
+  }
+})

@@ -1,9 +1,9 @@
 <?php 
-  session_start();
+/*   session_start(); */
   include_once "php/config.php";
-  if(!isset($_SESSION['unique_id'])){
+ /*  if(!isset($_SESSION['unique_id'])){
     header("location: login.php");
-  }
+  } */
 ?>
 <?php include_once "header.php"; ?>
 <body>
@@ -19,14 +19,14 @@
             header("location: users.php");
           }
         ?>
-        <a href="users.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+        <a onclick="cargar()" class="back-icon"><i class="fas fa-arrow-left"></i></a>
         <i style="color:black;" class="fas fa-user fa-3x"></i>
         <div class="details">
           <span><?php echo $row['nombreCompleto']?></span>
           <p><?php echo $row['status']; ?></p>
         </div>
       </header>
-      <div style="background-image: url('chat.png');background-repeat: no-repeat;background-size: cover;" class="chat-box">
+      <div style="background-image: url('chatAPP/chat.png');background-repeat: no-repeat;background-size: cover;" class="chat-box">
 
       </div>
       <form action="#" class="typing-area">
@@ -36,8 +36,11 @@
       </form>
     </section>
   </div>
+ <!--  <audio id="" style="display: none;" src="in.wav" > -->
 
-  <script src="javascript/chat.js"></script>
+
+  </audio>
+  <script src="chatAPP/javascript/chat.js"></script>
 
 </body>
 </html>

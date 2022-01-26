@@ -1,9 +1,9 @@
 <?php 
   session_start();
   include_once "php/config.php";
-  if(!isset($_SESSION['unique_id'])){
+  /* if(!isset($_SESSION['unique_id'])){
     header("location: login.php");
-  }
+  } */
 ?>
 <?php include_once "header.php"; ?>
 <body>
@@ -23,20 +23,33 @@
             <p><?php echo $row['status']; ?></p>
           </div>
         </div>
-        <a href="../../inicio.php" class="logout">Salir</a>
+        <!-- <a href="../../inicio.php" class="logout">Salir</a> -->
       </header>
-      <div class="search">
+      <?php
+      if ($_SESSION['unique_id']==27) {
+      $display="";
+      }else{
+        $display="none";
+
+      }
+      
+      
+      ?>
+      <div style="display:<?php echo $display?> !important;" class="search">
         <span class="text">Seleccionar un usuario para chatear</span>
         <input type="text" placeholder="Ingresa un nombre...">
         <button><i class="fas fa-search"></i></button>
       </div>
+      <?php
+     
+      ?>
       <div  class="users-list">
   
       </div>
     </section>
   </div>
 
-  <script src="javascript/users.js"></script>
+  <script src="chatAPP/javascript/users.js"></script>
 
 </body>
 </html>
