@@ -440,286 +440,15 @@ session_start();
     </section>
     <!--End Appointment Section Three -->
 
-    <!-- Team Section Two -->
-    <section class="team-section-two alternate">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">CONOZCA A NUESTRO EQUIPO EXPERIMENTADO</span>
-                <h2>Nuestro equipo de médicos dedicados.</h2>
-                <span class="divider"></span>
-            </div>
+   
 
-            <div class="row">
-                <!-- Team Block -->
-                <div class="team-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <div class="image-box">
-                           <figure class="image"><a href="doctor-detail.html"><img src="images/resource/m.jpg" alt=""></a></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h5 class="name"><a href="doctor-detail.html">Emily Haden</a></h5>
-                            <span class="designation">Dental Surgeon</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block -->
-                <div class="team-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                           <figure class="image"><a href="doctor-detail.html"><img src="images/resource/derek.jpg" alt=""></a></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h5 class="name"><a href="doctor-detail.html">Derek Hill</a></h5>
-                            <span class="designation">Neurology Surgeon</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block -->
-                <div class="team-block-two col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                           <figure class="image"><a href="doctor-detail.html"><img src="images/resource/drh.jpg" alt=""></a></figure>
-                            <ul class="social-links">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h5 class="name"><a href="doctor-detail.html">Audrey Button</a></h5>
-                            <span class="designation">Dental Surgeon</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sec-bottom-text">Don’t hesitate, contact us for better help and services. <a href="#">Explore all Dr. Team</a></div>
-        </div>
-    </section>
-    <!--End Team Section -->
-
-    <!-- Skill Section -->
-    <section class="skill-section">
-        <div class="outer-container clearfix">
-            <div class="skill-column">
-                <div class="inner-column">
-                    <div class="sec-title">
-                        <span class="sub-title">BEST OF THE BEST</span>
-                        <h2>High End Equipments.</h2>
-                        <span class="divider"></span>
-                        <div class="text">Surgery of the respiratory tract is generally performed by specialists in cardiothoracic surgery (or thoracic surgery) though minor procedures may be performed by pulmonologists. Pulmonology is closely.</div>
-                    </div>
-
-                    <!--Skills-->
-                    <div class="skills">
-                        <!--Skill Item-->
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">CARDIO-ONCOLOGY</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="3000" data-stop="55">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="55"></div></div>
-                            </div>
-                        </div>
-
-                        <!--Skill Item-->
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">HEART ASSESSMENT</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="3000" data-stop="72">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="72"></div></div>
-                            </div>
-                        </div>
-
-                        <!--Skill Item-->
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">Dental SURGERY</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="3000" data-stop="88">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="88"></div></div>
-                            </div>
-                        </div>
-
-                        <!--Skill Item-->
-                        <div class="skill-item">
-                            <div class="skill-header clearfix">
-                                <div class="skill-title">HEART ASSESSMENT</div>
-                                <div class="skill-percentage"><div class="count-box"><span class="count-text" data-speed="3000" data-stop="78">0</span>%</div></div>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="bar-inner"><div class="bar progress-line" data-width="78"></div></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="btn-box"><a href="#" class="theme-btn btn-style-three"><span class="btn-title">Learn More</span></a></div>
-                </div>
-            </div>
-
-            <div class="image-column" style="background-image: url(images/resource/maquina.jpg);">
-                <div class="image-box">
-                    <figure class="image"><img src="images/resource/imax5.jpg" alt=""></figure>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Skill Section -->
     
-    <!-- Testimonial Section -->
-    <section class="testimonial-section-two">
-        <div class="auto-container">
-            <!-- Sec Title -->
-            <div class="sec-title text-center">
-                <span class="title">HAPPY Patient</span>
-                <h2>What Says Our Patients</h2>
-                <span class="divider"></span>
-            </div>
-            
-            <div class="testimonial-outer">
-                <!-- Product Thumbs Carousel -->
-                <div class="client-thumb-outer">
-                    <div class="client-thumbs-carousel owl-carousel owl-theme">
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="images/resource/testi-thumb-1.jpg" alt=""></figure>
-                            <div class="author-info">
-                                <span class="icon fa fa-quote-left"></span>
-                                <div class="author-name">Lara Croft</div>
-                                <div class="designation">Restaurant Owner</div>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="images/resource/testi-thumb-2.jpg" alt=""></figure>
-                            <div class="author-info">
-                                <span class="icon fa fa-quote-left"></span>
-                                <div class="author-name">Lara Croft</div>
-                                <div class="designation">Restaurant Owner</div>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="images/resource/testi-thumb-3.jpg" alt=""></figure>
-                            <div class="author-info">
-                                <span class="icon fa fa-quote-left"></span>
-                                <div class="author-name">Lara Croft</div>
-                                <div class="designation">Restaurant Owner</div>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="images/resource/testi-thumb-2.jpg" alt=""></figure>
-                            <div class="author-info">
-                                <span class="icon fa fa-quote-left"></span>
-                                <div class="author-name">Lara Croft</div>
-                                <div class="designation">Restaurant Owner</div>
-                            </div>
-                        </div>
-                        <div class="thumb-item">
-                            <figure class="thumb-box"><img src="images/resource/testi-thumb-3.jpg" alt=""></figure>
-                            <div class="author-info">
-                                <span class="icon fa fa-quote-left"></span>
-                                <div class="author-name">Lara Croft</div>
-                                <div class="designation">Restaurant Owner</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Client Testimonial Carousel -->
-                <div class="client-testimonial-carousel default-dots owl-carousel owl-theme">
-                
-                    <!--Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Medical Centre is a great place to get all of your medical needs. I came in for a check up and did not wait more than 5 minutes before I was seen. I can only imagine the type of service you get for more serious issues. Thanks!</div>
-                        </div>
-                    </div>
-                    
-                    <!--Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Medical Centre is a great place to get all of your medical needs. I came in for a check up and did not wait more than 5 minutes before I was seen. I can only imagine the type of service you get for more serious issues. Thanks!</div>
-                        </div>
-                    </div>
-                    
-                    <!--Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Medical Centre is a great place to get all of your medical needs. I came in for a check up and did not wait more than 5 minutes before I was seen. I can only imagine the type of service you get for more serious issues. Thanks!</div>
-                        </div>
-                    </div>
-
-                    <!--Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Medical Centre is a great place to get all of your medical needs. I came in for a check up and did not wait more than 5 minutes before I was seen. I can only imagine the type of service you get for more serious issues. Thanks!</div>
-                        </div>
-                    </div>
-                    
-                    <!--Testimonial Block -->
-                    <div class="testimonial-block">
-                        <div class="inner-box">
-                            <div class="text">Medical Centre is a great place to get all of your medical needs. I came in for a check up and did not wait more than 5 minutes before I was seen. I can only imagine the type of service you get for more serious issues. Thanks!</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Call To Action -->
-            <div class="call-to-action">
-                <div class="inner-container">
-                    <div class="content-column">
-                        <h4>We Employ The Latest Technology</h4>
-                        <h2>We Ensure Safe Dental Sergery </h2>
-                        <a href="#" class="theme-btn btn-style-three"><span class="btn-title">Take Appointment</span></a>
-                    </div>
-
-                    <div class="video-column">
-                        <!--<div class="btn-box">
-                            <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button" aria-hidden="true"></i><span class="ripple"></span></a>
-                            <span class="title">Watch now</span>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+    
     <!-- End Testimonial Section -->
 
     <!-- Clients Section -->
-    <section class="clients-section">
-        <div class="auto-container">
 
-            <!-- Sponsors Outer -->
-            <div class="sponsors-outer">
-                <!--clients carousel-->
-                <ul class="clients-carousel owl-carousel owl-theme">
-                    <li class="slide-item"> <a href="#"><img src="images/clients/1.png" alt=""></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="images/clients/2.png" alt=""></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="images/clients/3.png" alt=""></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="images/clients/4.png" alt=""></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="images/clients/5.png" alt=""></a> </li>
-                </ul>
-            </div>
-        </div>
-    </section>
     <!--End Clients Section -->
 
     <!-- Main Footer -->
@@ -738,97 +467,46 @@ session_start();
                                         <a href="index.html"><img src="images/logo-2.png" alt="" /></a>
                                     </div>
                                     <div class="text">
-                                        <p>Our Clinic has grown to provide a world class facility for the clinic advanced restorative. </p>
-                                        <p>We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.</p>
+                                        <p>Visítenos y disfrute de tener al fin todos los estudios medicos que Ud. necesita, a un paso de su casa. </p>                             
                                     </div>
                                     <ul class="social-icon-three">
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
 
-                            <!--Footer Column-->
-                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget">
-                                    <h2 class="widget-title">Departments</h2>
-                                    <ul class="user-links">
-                                        <li><a href="#">Surgery & Radiology</a></li>
-                                        <li><a href="#">Family Medicine</a></li>
-                                        <li><a href="#">Women’s Health</a></li>
-                                        <li><a href="#">Optician</a></li>
-                                        <li><a href="#">Pediatrics</a></li>
-                                        <li><a href="#">Dermatology</a></li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
                     <!--Big Column-->
                     <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                         <div class="row">
-                            <!--Footer Column-->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <!--Footer Column-->
-                                <div class="footer-widget recent-posts">
-                                    <h2 class="widget-title">Latest News</h2>
-                                     <!--Footer Column-->
-                                    <div class="widget-content">
-                                        <div class="post">
-                                            <div class="thumb"><a href="blog-post-image.html"><img src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-                                            <h4><a href="blog-post-image.html">Integrative Medicine <Br>& Cancer Treatment.</a></h4>
-                                            <span class="date">July 11, 2020</span>
-                                        </div>
-
-                                        <div class="post">
-                                            <div class="thumb"><a href="blog-post-image.html"><img src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-                                            <h4><a href="blog-post-image.html">Achieving Better <br>Health Care Time.</a></h4>
-                                            <span class="date">August 1, 2020</span>
-                                        </div>
-
-                                        <div class="post">
-                                            <div class="thumb"><a href="blog-post-image.html"><img src="images/resource/post-thumb-3.jpg" alt=""></a></div>
-                                            <h4><a href="blog-post-image.html">Great Health Care <br>For Patients.</a></h4>
-                                            <span class="date">August 1, 2020</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Footer Column-->
+                            
                             <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                                 <!--Footer Column-->
                                 <div class="footer-widget contact-widget">
-                                    <h2 class="widget-title">Contact Us</h2>
+                                    <h2 class="widget-title">Contacto</h2>
                                      <!--Footer Column-->
                                     <div class="widget-content">
                                         <ul class="contact-list">
                                             <li>
                                                 <span class="icon flaticon-placeholder"></span>
-                                                <div class="text">2130 Fulton Street San Diego <Br>CA 94117-1080 USA</div>
+                                                <div class="text">Alberdi 455 <Br>Clorinda - Formosa - Argentina</div>
                                             </li>
 
                                             <li>
                                                 <span class="icon flaticon-call-1"></span>
-                                                <div class="text">Mon to Fri : 08:30 - 18:00</div>
-                                                <a href="tel:+89868679575"><strong>+898 68679 575</strong></a>
+                                                <a href="tel:+543718542291"><strong>+543718542291</strong></a>
                                             </li>
 
                                             <li>
                                                 <span class="icon flaticon-email"></span>
-                                                <div class="text">Do you have a Question?<br>
-                                                <a href="mailto:info@gmail.com"><strong>info@gmail.com</strong></a></div>
+                                                <div class="text">¿Tienes alguna pregunta?<br>
+                                                <a href="mailto:imax@gmail.com"><strong>imax@gmail.com</strong></a></div>
                                             </li>
 
-                                            <li>
-                                                <span class="icon flaticon-back-in-time"></span>
-                                                <div class="text">Mon - Sat 8.00 - 18.00<br>
-                                                <strong>Sunday CLOSED</strong></div>
-                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -848,20 +526,19 @@ session_start();
                 <div class="inner-container clearfix">
                     <div class="footer-nav">
                         <ul class="clearfix">
-                           <li><a href="index.html">Privacy Policy</a></li> 
-                           <li><a href="about-us.php">Contact</a></li> 
-                           <li><a href="services.html">Supplier</a></li>  
+                           <li><a href="#">Política y privacidad</a></li> 
+                           <li><a href="#">Contacto</a></li> 
+                           <li><a href="#">Especialidades Médicas</a></li>  
                         </ul>
                     </div>
                     
                     <div class="copyright-text">
-                    <p>Copyright © 2021 <a href="#">Imax </a>All Rights Reserved.</p>
+                        <p>Copyright © 2021 <a href="#">Imax </a>All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!--End Main Footer -->
 
 </div><!-- End Page Wrapper -->
 
